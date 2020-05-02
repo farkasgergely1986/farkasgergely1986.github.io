@@ -1,0 +1,162 @@
+body{
+    background: blanchedalmond;
+    font-family: 'Cinzel', serif;
+}
+
+#gallery{
+    width: 1300px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 0px 10px 10px grey;
+    background: lavender;
+}
+
+#left_arrow {
+    flex-basis: 6%;
+}
+
+main {
+    display: flex;
+    flex-basis: 88%;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    }
+
+#right_arrow {
+    flex-basis: 6%;
+}
+
+#left_arrow {
+    display: flex;
+    background-color: silver;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    }
+
+#right_arrow {
+    display: flex;
+    background-color: silver;
+    cursor: pointer;
+    transform: rotate(0.5turn); 
+    align-items: center;
+    justify-content: center;
+}
+
+#right_arrow:hover {
+    opacity: 50%;
+}
+
+#left_arrow:hover {
+    opacity: 50%;
+}
+
+#photo {
+    object-fit: cover;
+    background: grey;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+                }
+
+.gray-container{
+    background-color: grey;
+    position: absolute;
+    opacity: 0.7;
+    justify-content: center;
+    margin: auto;
+    padding-left: 25px;
+    width: 100%;
+    bottom: 0px;
+    }
+
+h1, p {
+color: white;
+font-family: 'Cinzel', serif;
+}  
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    background: transparent;
+            }
+
+.thumbnail{
+    max-width: 80px;
+    max-height: 80px;
+    border: 5px solid;
+    border-color: white;
+    box-shadow: 1px 33px 37px -11px rgba(99,95,99,0.7);
+    margin: 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+        }
+
+#small_pic {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+}
+
+#box{
+    opacity: 0.5;
+}
+
+.cim{
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.felirat {
+    opacity: 0;
+        }
+
+    .thumbnail:hover .felirat {
+        background-color:black;
+        border-radius: 5px;
+        color: white;
+        padding: 7px;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 12px;
+        position: relative;
+        left: -20px;
+        top: -30px;
+        display: inline;
+        opacity: 1;
+        }
+    
+    #photo4 {
+        transform: rotate(180deg);
+    }
+
+
+/*
+solution1: https://github.com/csbalazs-git/my-first-repository/blob/master/style.css */
+/* https://github.com/sesamsys/sah-image-slider/blob/master/style.css */
