@@ -1,3 +1,9 @@
+let photo0 = {
+  photo: 'gallery/szingapur.jpg',
+  title: 'Szingapúr - 2018. augusztus',
+  description: 'Balira való utazás során Szingapúr is egy állomásunk volt, ahol eltöltöttünk néhány napot',
+};
+
 let photo1 = {
     photo: 'gallery/bali.jpg',
     title: 'Bali - 2018. augusztus',
@@ -65,7 +71,7 @@ let photo11 = {
 
   let currentPhoto = 0;
 
-  let imagesData = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11];
+  let imagesData = [photo0, photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11];
 
     let loadPhoto = (photoNumber) => {
     $('#photo').attr('src', imagesData[photoNumber].photo);
